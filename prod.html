@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Products</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/x-icon" href="img/icon/c.png">
+</head>
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card " id="myNavbar">
+    <a href="index.html" class="w3-bar-item w3-animate-left w3-wide"><img src="img/icon/logo.png" width="50px"></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small w3-padding-16 w3-animate-zoom">
+      <a href="index.html" class="w3-bar-item w3-button">HOME</a>
+      <a href="prod.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PRODUCTS</a>
+      <a href="about.html" class="w3-bar-item w3-button">ABOUT US</a>
+      <a href="contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-padding-16 w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+  <a href="prod.html" onclick="w3_close()" class="w3-bar-item w3-button">PRODUCTS</a>
+  <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+  <!-- Header with full-height image -->
+  <header class="bgimg-prod w3-display-container w3-grayscale-min" id="home">
+    <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+      <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off w3-animate-zoom">Learn more</a></p> 
+    </div>
+  </header>
+
+</div>
+</header> 
+<script src="other.js"></script>
+
+
+<div class="w3-container" style="padding:64px 16px" id="team">
+  <h3 class="w3-center"><strong>Our Products</strong></h3>
+  <p class="w3-center w3-large">Work Of Excellence</p>
+</div>
+
+
+<!-- First Product" -->
+<div class="w3-container w3-dark-grey" style="padding:100px 16px" id="transfocure">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="img/prod/2.jpg" alt="Buildings" width="100%" height="50px">
+    </div>
+    <div class="w3-col m6" style="padding-top:40px">
+      <h3><b>About TransfoCure</b></h3>
+      <p>TransfoCure provides an automatic system for transformer monitoring & control, data collection and control & an efficient and intelligent mechanism to avoid all the inappropriate, inefficient and error prone procedures. TransfoCure provides various run time parameters such as, voltages, currents, power factor, link down, short circuit, unbalancing & phase shifts. It protects the transformer from damages due to overloading & unbalanced load connectivity.</p>
+      <p><a href="#work" class="w3-button w3-light-grey"><i class="fa fa-th"></i> View Details</a></p>
+    </div>
+    
+  </div>
+</div>
+
+<!-- 2nd Product" -->
+<div class="w3-container w3-light-grey" style="padding:100px 16px" id="electrocure">
+  <div class="w3-row-padding">
+    <div class="w3-col m6" style="padding-top:40px">
+      <h3><b>About ElectroCure</b></h3>
+      <p>ElectroCure is a Low Cost Smart Metering solution with Meter-less Architecture. Single Module serves multiple consumers, Hence, it helps in cost reduction per consumer. It's an ideal solution for electricity theft & losses detection. ElectroCure provides real time data acquisition of electricity distribution network, metering, monitoring & control.</p>
+      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"></i> View Details</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="img/prod/1.jpg" alt="Buildings" width="100%" height="50px">
+    </div>
+  </div>
+</div>
+
+<!-- 3rd Product" -->
+<div class="w3-container w3-dark-grey" style="padding:100px 16px" id="agrocure">
+  <div class="w3-row-padding">
+    <div class="w3-col m6" style="padding-top:40px">
+      <h3><b>About AgroCure</b></h3>
+      <p>AgroCure is a tech-based solution to reduce food insecurity, empower farmers by eliminating the middlemen, and provide a transparent platform to access real-time farm data and insights</p>
+      <p><a href="#work" class="w3-button w3-light-grey"><i class="fa fa-th"></i> View Details</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="img/prod/3.jpg" alt="Buildings" width="100%" height="50px">
+    </div>
+  </div>
+</div>
+
+<!-- 4th Product" -->
+<div class="w3-container w3-light-grey" style="padding:100px 16px" id="meterocure">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="img/prod/4.jpg" alt="Buildings" width="100%" height="50px">
+    </div>
+    <div class="w3-col m6" style="padding-top:40px">
+      <h3><b>About Metrocure</b></h3>
+      <p>Metero-cure is an image based autonomous remote billing smart system to overcome under billing issues. Metero-cure ensures reliability of the data. In MeteroCure, the meter data is sent. The meter reader takes the picture of the meter and sends to the data server via our highly secure application. Data server then downloads the billing info and compares with the meter reference number. With this efficient system, the billing info is printed and sent to the customer</p>
+      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"></i> View Details</a></p>
+    </div>
+    
+  </div>
+</div>
+
+<!-- 5th Product" -->
+<div class="w3-container w3-dark-grey" style="padding:100px 16px" id="cms">
+  <div class="w3-row-padding">
+    <div class="w3-col m6" style="padding-top:40px">
+      <h3><b>About CMS</b></h3>
+      <p>CMS is a convenient solution for monitoring and tracking user complaints. CMS gives a complete system that can automatically handle the different processes of a CMS 24/7. Its high-tech device provides updated status regarding the complaint and feedback from the customers. The device enables the consumers to register their complaint via SMS or Mobile Application which can be constantly tracked by the consumers therefore providing ease and quick communication to the customers.</p>
+      <p><a href="#work" class="w3-button w3-light-grey"><i class="fa fa-th"></i> View Details</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="img/prod/5.jpg" alt="Buildings" width="100%" height="50px">
+    </div>
+  </div>
+</div>
+
+<!-- 6th Product" -->
+<div class="w3-container w3-light-grey" style="padding:100px 16px" id="autofiller">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="img/prod/6.jpg" alt="Buildings" width="100%" height="50px">
+    </div>
+    <div class="w3-col m6" style="padding-top:40px">
+      <h3><b>About Auto Filler</b></h3>
+      <p>Autofill provides solution to water spills & wasteful consumption of water & electricity. Autofil developed by CISNR, makes use of ultrasonic sensor, automatic switch module & water-flow sensors, enabling people to obtain undisturbed water supply without water spills & any other wastages.</p>
+      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"></i> View Details</a></p>
+    </div>
+    
+  </div>
+</div>
+
+<!-- 7th Product" -->
+<div class="w3-container w3-dark-grey w3-animate-left" style="padding:100px 16px" id="aquacure">
+  <div class="w3-row-padding">
+    <div class="w3-col m6" style="padding-top:40px">
+      <h3><b>About AquaCure</b></h3>
+      <p>Water supply management system is a SCADA system that addresses a big lump of water protection and metering problems from water pumping tube wells through storage tanks to consumers by providing real-time data acquisition and control of water quality & quantification for the water supply network.</p>
+      <p><a href="#work" class="w3-button w3-light-grey"><i class="fa fa-th"></i> View Details</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="img/prod/7.jpg" alt="Buildings" width="100%" height="50px">
+    </div>
+  </div>
+</div>
+
+
+<!-- CONTACT US -->
+
+<div class="w3-container w3-light-grey" style="padding:10px 16px" id="contact">
+  <h3 class="w3-center"><b>Contact Us</b></h3>
+  <div style="margin-top:48px">
+  <p><a href="https://goo.gl/maps/ZNSVheyaFKPXJTgw9"><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i></a> Peshawar, Pakistan</p>
+  <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone:(+92) 332 9899396</p>
+  <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: info@cispvt.com</p>
+  <br>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <a href="#home" class="w3-button w3-light-grey w3-right"><i class="fa fa-arrow-up"></i></a>
+  <div class="w3-xlarge w3-section">
+    <a target="_blank" rel="noopener" href="https://www.facebook.com/cisnr/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a target="_blank" rel="noopener" href="https://twitter.com/cisnr_company"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a target="_blank" rel="noopener" href="https://pk.linkedin.com/company/cisnr"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+ <p class="w3-small">Copyright © 2023 Company of Innovative Solutions and Network Research. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
+
+   

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Us</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="img/icon/c.png">
+  </head>
+
+<body>
+
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-card " id="myNavbar">
+      <a href="#home" class="w3-bar-item w3-animate-left w3-wide"><img src="img/icon/logo.png" width="50px"></a>
+      <!-- Right-sided navbar links -->
+      <div class="w3-right w3-hide-small w3-padding-16 w3-animate-zoom">
+        <a href="index.html" class="w3-bar-item w3-button">HOME</a>
+        <a href="prod.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PRODUCTS</a>
+        <a href="about.html" class="w3-bar-item w3-button">ABOUT US</a>
+        <a href="contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+      </div>
+      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-padding-16 w3-hide-medium" onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- Sidebar on small screens when clicking the menu icon -->
+  <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+    <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+    <a href="prod.html" onclick="w3_close()" class="w3-bar-item w3-button">PRODUCTS</a>
+    <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+    
+  </nav>
+  <script src="other.js"></script>
+
+  <!-- Header with full-height image -->
+  <header class="bgimg-about w3-display-container w3-grayscale-min" id="home">
+    <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+      <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off w3-animate-zoom">Learn more</a></p> 
+    </div>
+  </header>
+
+
+<!-- About Us Text -->
+<div class="w3-container w3-animate-zoom" style="padding:64px 16px" id="about">
+  <h3 class="w3-center "><b>About Us</b></h3>
+  <p class="w3-center "><i>CISPVT is registered with the Asian Development Bank & World Bank as a consulting firm. It provides consultation regarding emerging & existing solutions in a vast area of technological & social development sectors. Global expertise, applied locally CISPVT allows rapid engagement scalability, right from analysis to implementation.</i></p>
+</div>
+
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+  
+    <div class="w3-col " style="padding: 20px; text-align: justify;">
+      <p><i class="fa fa-check-square-o w3-margin-right"></i>To Provide a platform and resources to competent researchers, developers and engineers to innovate modern solutions for complex problems.</p>
+
+      <p><i class="fa fa-check-square-o w3-margin-right"></i>Development of Innovative designs and intelligent Systems.</p>
+    
+      <p><i class="fa fa-check-square-o w3-margin-right"></i>To conduct research in various fields of AI and prevent/minimize Natural and man-made disasters using data Intelligence.</p>
+
+      <p><i class="fa fa-check-square-o w3-margin-right"></i>Build national capacity to carry out R&D in the emerging field of Artificial Intelligence by solving at least a small number of AI problems identified and mutually agreed by scientific communities comprising local and international experts.</p>
+    </div>
+
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-third">
+    <span class="w3-xxlarge">12+</span>
+    <br>Total Products
+  </div>
+  <div class="w3-third">
+    <span class="w3-xxlarge">8+</span>
+    <br>Total Projects
+  </div>
+  <div class="w3-third">
+    <span class="w3-xxlarge">80+</span>
+    <br>Mou
+  </div>
+</div>
+
+<!-- CONTACT US -->
+
+<div class="w3-container w3-light-grey" style="padding:10px 16px" id="contact">
+  <h3 class="w3-center"><b>Contact Us</b></h3>
+  <div style="margin-top:48px">
+  <p><a href="https://goo.gl/maps/ZNSVheyaFKPXJTgw9"><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i></a> Peshawar, Pakistan</p>
+  <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone:(+92) 332 9899396</p>
+  <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: info@cispvt.com</p>
+  <br>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <a href="#home" class="w3-button w3-light-grey w3-right"><i class="fa fa-arrow-up"></i></a>
+  <div class="w3-xlarge w3-section">
+    <a target="_blank" rel="noopener" href="https://www.facebook.com/cisnr/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a target="_blank" rel="noopener" href="https://twitter.com/cisnr_company"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a target="_blank" rel="noopener" href="https://pk.linkedin.com/company/cisnr"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+ <p class="w3-small">Copyright © 2023 Company of Innovative Solutions and Network Research. All Rights Reserved.</p>
+</footer>
+
+
+
+</body>
+</html>

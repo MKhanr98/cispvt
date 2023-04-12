@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact Us</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/x-icon" href="img/icon/c.png">
+</head>
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card " id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-animate-left w3-wide"><img src="img/icon/logo.png" width="50px"></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small w3-padding-16 w3-animate-zoom">
+      <a href="index.html" class="w3-bar-item w3-button">HOME</a>
+      <a href="prod.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PRODUCTS</a>
+      <a href="about.html" class="w3-bar-item w3-button">ABOUT US</a>
+      <a href="contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-padding-16 w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+  <a href="prod.html" onclick="w3_close()" class="w3-bar-item w3-button">PRODUCTS</a>
+  <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+<script src="other.js"></script>
+ 
+<!-- Header with full-height image -->
+<header class="bgimg-contact w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <p><a href="#contact" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off w3-animate-zoom">Contact Form</a></p> 
+  </div>
+</header>
+
+
+<!-- CONTACT US -->
+
+<div class="w3-container w3-center w3-light-grey w3-padding-64" id="contact">
+  <h3 class="w3-center"><b>Contact Us</b></h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div style="margin-top:48px">
+  
+  <div class="w3-container w3-col m6 w3-left-align w3-padding-16">
+  <p class=""><a href="https://goo.gl/maps/ZNSVheyaFKPXJTgw9"><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i></a> Peshawar, Pakistan</p>
+  <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone:(+92) 332 9899396</p>
+  <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: info@cispvt.com</p>
+  <br>
+  </div>
+  
+  <div class="w3-container w3-col m6 w3-left-align">
+    <form class="" action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  </div>
+
+
+</div>
+  <div class="w3-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.386815882314!2d71.48553581447621!3d34.00828062749444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d91734f3258839%3A0xcc5ebf88dd87f96!2sCISNR!5e0!3m2!1sen!2s!4v1675941053897!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  </div>
+</div>
+
+  
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <a href="#home" class="w3-button w3-light-grey w3-right"><i class="fa fa-arrow-up"></i></a>
+  <div class="w3-xlarge w3-section">
+    <a target="_blank" rel="noopener" href="https://www.facebook.com/cisnr/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a target="_blank" rel="noopener" href="https://twitter.com/cisnr_company"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a target="_blank" rel="noopener" href="https://pk.linkedin.com/company/cisnr"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+ <p class="w3-small">Copyright © 2023 Company of Innovative Solutions and Network Research. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
